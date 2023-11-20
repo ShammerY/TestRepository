@@ -53,5 +53,5 @@ _____
 
 Gráfico de comparación
 
-![imagen](Toy.png)
+![imagen](Images/Toy.png)
 
