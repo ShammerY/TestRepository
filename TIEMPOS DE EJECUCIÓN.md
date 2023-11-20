@@ -220,7 +220,7 @@ A partir del comportamiento de las gráficas realizadas por los existentes tama�
 
 Para este algoritmo, podemos observar de la función lineal tiende a no cambiar mediante el tipo de dato va siendo mayor. Para el tipo de dato Grande, identificamos una función próxima que relaciona el comportamiento:
 
-F(x) = 0.00000004x + 0.0323
+$F(x) = 0.00000004x + 0.0323$
 
 La pendiente en esta función nos indica que:
 
@@ -230,7 +230,7 @@ Por cada unidad de tamaño agregado a la entrada del algoritmo Single-Sum Checks
 
 Para este algoritmo, podemos expresar la función como:
 
-H(x) = 0.00000008x + 0.014
+$H(x) = 0.00000008x + 0.014$
 
 La pendiente en esta función nos indica que:
 
