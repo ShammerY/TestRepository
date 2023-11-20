@@ -1,4 +1,4 @@
-#$ANALISIS DE TIEMPOS DE EJECUCIÓN$
+# ANALISIS DE TIEMPOS DE EJECUCIÓN
 
 El análisis de los resultados obtenidos es esencial para desentrañar la eficiencia y el comportamiento del algoritmo CheckSum en diferentes situaciones. 
 
@@ -16,11 +16,10 @@ Hemos usado dos diferentes algoritmos para realizar CheckSum. "Single CheckSum" 
 
 _____
 
-#TOY
+# TOY
 
-|SINGLE CHECKSUM TOY : [1 - 99]| | | | | | | | | | |
+|SINGLE CHECKSUM TOY : [1 - 99]
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| | | | | | | | | | | |
 | |10|20|30|40|50|60|70|80|90|99|
 |1|0.000007730|0.000004770|0.000013560|0.000028300|0.000010800|0.000013000|0.000021100|0.000016500|0.000021600|0.000021500|
 |2|0.000005650|0.000004470|0.000007230|0.000007900|0.000010000|0.000011500|0.000020600|0.000015100|0.000017100|0.000019300|
@@ -36,7 +35,7 @@ _____
 
 _____
 
-|DUAL CHECKSUM TOY : [1 - 99]| | | | | | | | | | |
+|DUAL CHECKSUM TOY : [1 - 99]
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
 | | | | | | | | | | | |
 | |10|20|30|40|50|60|70|80|90|99|
@@ -54,16 +53,15 @@ _____
 
 _____
 
-##Gráfico
+## Gráfico
 
 ![GRAFICO TOY](Images/ToyGraph.png)
 
 
 _____
 
-#PEQUEÑO
+# PEQUEÑO
 
-#PEQUEÑO
 |SINGLE CHECKSUM PEQUES : [100 - 9999]| | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | | | | | | | | | | | |
@@ -100,7 +98,7 @@ ____
 
 _____
 
-##GRAFICO PEQUEÑO
+## GRAFICO PEQUEÑO
 
 
 ![GRAFICO PEQUEÑO](Images/PequeGraph.png)
@@ -108,7 +106,7 @@ _____
 
 _____
 
-#MEDIANO
+# MEDIANO
 
 |SINGLE CHECKSUM MEADIANO: [10000 - 99999]| | | | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -146,13 +144,13 @@ ____
 
 _____
 
-##GRAFICO MEDIANO
+## GRAFICO MEDIANO
 
 ![GRAFICO MEDIANO](Images/MediumGraph.png)
 
 _____
 
-#GRANDE
+# GRANDE
 
 |SINGLE CHECKSUM GRANDE : [1000000 - 5000000]| | | | |
 |:---:|:---:|:---:|:---:|:---:|
@@ -190,7 +188,7 @@ ____
 
 _____
 
-##GRAFICO GRANDE
+## GRAFICO GRANDE
 
 
 ![GRAFICO GRANDE](Images/BigGraph.png)
