@@ -1,4 +1,4 @@
-ANALISIS DE TIEMPOS DE EJECUCIÓN
+#$ANALISIS DE TIEMPOS DE EJECUCIÓN$
 
 El análisis de los resultados obtenidos es esencial para desentrañar la eficiencia y el comportamiento del algoritmo CheckSum en diferentes situaciones. 
 
