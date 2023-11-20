@@ -1,3 +1,18 @@
+# CALCULO DE COMPLEJIDAD
+
+### Método del maestro
+
+Usaremos el método del maestro para calcular la complejidad del algoritmo Single Sum. Como este algoritmo no utiliza otros mecanismos de optimización de ejecución, como "Divide y Vencerás", sabemos que la lista que se entrega como entrada no es dividida en ningún momento. Por lo tanto, la relación de recurrencia para este algoritmo es:
+
+T_(n) = T(\frac{n}{1}) + O(n)
+
+La complejidad del algoritmo es O(log n) debido a que el numero de niveles de recursión es
+
+log_bn
+
+Y en cada nivel se realiza un trabajo Constante O(1)
+
+
 # ANALISIS DE TIEMPOS DE EJECUCIÓN
 
 El análisis de los resultados obtenidos es esencial para desentrañar la eficiencia y el comportamiento del algoritmo CheckSum en diferentes situaciones. 
@@ -13,6 +28,7 @@ MEDIANO : [10000<n<100000]
 GRANDE : [1000000<n<6000000]
 
 Hemos usado dos diferentes algoritmos para realizar CheckSum. "Single CheckSum" y "Dual CheckSum". En esta sección, mostraremos los resultados de los tiempos de ejecución por cada dato de diferentes longitudes, n recorriendo el intervalo perteneciente al tipo de dato.
+Luego podemos observar la gráfica que relaciona el tiempo de ejecución versus el tamaño de la entrada. Para ambos algoritmos analizados.
 
 _____
 
@@ -193,4 +209,42 @@ _____
 
 
 ![GRAFICO GRANDE](Images/BigGraph.png)
+
+_____
+
+## Análisis
+
+A partir del comportamiento de las gráficas realizadas por los existentes tamaños de las entradas para la ejecución de ambos algoritmos de CheckSum, Observamos un comportamiento lineal. Es decir, por cáda unidad de tamaño que le agregamos a la entrada, el tiempo de ejecución del algoritmo va a aumentar un número escalar.
+
+### Single Sum Checksum
+
+Para este algoritmo, podemos observar de la función lineal tiende a no cambiar mediante el tipo de dato va siendo mayor. Para el tipo de dato Grande, identificamos una función próxima que relaciona el comportamiento:
+
+F(x) = 0.00000004x + 0.0323
+
+La pendiente en esta función nos indica que:
+
+Por cada unidad de tamaño agregado a la entrada del algoritmo Single-Sum Checksum, aumenta 0.00000004 segundos en el tiempo de ejecución.
+
+### Dual Sum Checksum
+
+Para este algoritmo, podemos expresar la función como:
+
+H(x) = 0.00000008x + 0.014
+
+La pendiente en esta función nos indica que:
+
+Por cada unidad de tamaño agregado a la entrada del algoritmo Single-Sum Checksum, aumenta 0.00000008 segundos en el tiempo de ejecución.
+
+# CONCLUSIÓN
+
+Al establecer las funciones lineales que representan para cada algoritmo la relación entre el tiempo de ejecución y el tamaño de la entrada, podemos detallar algunas diferencias.
+
+La pendiente de Dual Sum, es el doble en comparación con Single Sum, lo que sugiere una tasa de crecimiento lineal más rápida con respecto al tamaño de la entrada. Esto significa que para un mismo tamaño de entrada, el algoritmo Dual Sum tiende a demorar mas tiempo en ejecutar el proceso.
+
+### Complejidad
+La complejidad de ambos algoritmos es: O(n)
+
+El algoritmo, tanto de Single Sum y Dual Sum, recorren la lista dato por dato, realizando la suma pertinente a su operación. Esto significa que siempre va a tener una complejidad lineal, no importa cuanto varía el tamaño de la entrada. Confirmamos esta observación al analizar el comportamiento de las funciones de Single-Sum y Dual-Sum, sabiendo que tienden a ser lineales.
+
 
