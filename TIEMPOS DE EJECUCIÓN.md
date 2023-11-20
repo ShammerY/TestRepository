@@ -8,7 +8,7 @@ $T_(n) = T(\frac{n}{1}) + O(n)$
 
 La complejidad del algoritmo es O(log n) debido a que el numero de niveles de recursión es
 
-log_bn
+$log_bn$
 
 Y en cada nivel se realiza un trabajo Constante O(1)
 
