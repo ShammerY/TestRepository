@@ -4,7 +4,7 @@
 
 Usaremos el método del maestro para calcular la complejidad del algoritmo Single Sum. Como este algoritmo no utiliza otros mecanismos de optimización de ejecución, como "Divide y Vencerás", sabemos que la lista que se entrega como entrada no es dividida en ningún momento. Por lo tanto, la relación de recurrencia para este algoritmo es:
 
-T_(n) = T(\frac{n}{1}) + O(n)
+$T_(n) = T(\frac{n}{1}) + O(n)$
 
 La complejidad del algoritmo es O(log n) debido a que el numero de niveles de recursión es
 
